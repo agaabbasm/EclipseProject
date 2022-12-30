@@ -39,6 +39,7 @@ public class PrimusStepDefinition {
 	@And("user on login page")
 	public void user_on_login_page() {
 	driver.get("http://primusbank.qedgetech.com/");	
+	System.out.println("ADD for eclispe");
 	}
 
 	@When("^user enter (.*) and (.*)$")
