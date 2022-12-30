@@ -27,6 +27,7 @@ public class PrimusStepDefinition {
 		driver.manage().timeouts().implicitlyWait(90,TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(90,TimeUnit.SECONDS);
 		driver.manage().window().maximize();
+		System.out.println("Testing for feature1 branch");
 		
 	}
 	
