@@ -1,0 +1,384 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-26T12:03:11.158Z",
+        "before": [
+          {
+            "result": {
+              "duration": 20498000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "verify the login functionality",
+        "description": "",
+        "id": "feature-to-test-primus-application;verify-the-login-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2251000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1955000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user on login page",
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.user_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1054000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter Admin and Admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 11
+                },
+                {
+                  "val": "Admin",
+                  "offset": 21
+                }
+              ],
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.user_enter_Admin_and_admin123(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3810000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on login button",
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 278000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigate to admin page",
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.user_navigate_to_admin_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-26T12:03:41.445Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2802000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "verify the new branch creation",
+        "description": "",
+        "id": "feature-to-test-primus-application;verify-the-new-branch-creation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2488000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4454000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user on login page",
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.user_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 359000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enter Admin and Admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 11
+                },
+                {
+                  "val": "Admin",
+                  "offset": 21
+                }
+              ],
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.user_enter_Admin_and_admin123(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3203000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click on login button",
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user navigate to admin page",
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.user_navigate_to_admin_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5120000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click on branches and new branches link",
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.user_click_on_branches_and_new_branches_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13916000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "branch details srinagar and kukatpally and srnagar and Mnagar and Hyderabad and 50002",
+            "match": {
+              "arguments": [
+                {
+                  "val": "srinagar",
+                  "offset": 15
+                },
+                {
+                  "val": "kukatpally",
+                  "offset": 28
+                },
+                {
+                  "val": "srnagar",
+                  "offset": 43
+                },
+                {
+                  "val": "Mnagar",
+                  "offset": 55
+                },
+                {
+                  "val": "Hyderabad",
+                  "offset": 66
+                },
+                {
+                  "val": "50002",
+                  "offset": 80
+                }
+              ],
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.branch_details_srinagar_and_kukatpally_and_srnagar_and_address_and_Hyderabad_and_zipcode(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3248000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user click submit details",
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.user_click_submit_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "New branches creates succesfully",
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.new_branches_creates_succesfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-26T12:04:17.361Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6184000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "verify the logout functionality",
+        "description": "",
+        "id": "feature-to-test-primus-application;verify-the-logout-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1808000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3804000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user on login page",
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.user_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 394000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enter Admin and Admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 11
+                },
+                {
+                  "val": "Admin",
+                  "offset": 21
+                }
+              ],
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.user_enter_Admin_and_admin123(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3261000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user click on login button",
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user navigate to admin page",
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.user_navigate_to_admin_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 475000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user click on logout button",
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.user_click_on_logout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user should logout successfully",
+            "match": {
+              "location": "com.primus.stepdefinition.PrimusStepDefinition.user_should_logout_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test primus application",
+    "description": "",
+    "id": "feature-to-test-primus-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/primus.feature",
+    "tags": []
+  }
+]

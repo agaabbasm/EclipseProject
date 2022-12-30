@@ -1,0 +1,5 @@
+com\primus\pages\LoginPage.class
+com\primus\pages\BranchPage.class
+com\primus\pages\LogoutPage.class
+com\primus\stepdefinition\PrimusStepDefinition.class
+com\primus\testrunner\PrimusTestRunner.class

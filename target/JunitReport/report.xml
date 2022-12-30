@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="83.138">
+<testcase classname="feature to test primus application" name="verify the login functionality" time="30.23">
+<system-out><![CDATA[And user on login page......................................................passed
+When user enter Admin and Admin.............................................passed
+And user click on login button..............................................passed
+Then user navigate to admin page............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test primus application" name="verify the new branch creation" time="35.914">
+<system-out><![CDATA[And user on login page......................................................passed
+When user enter Admin and Admin.............................................passed
+And user click on login button..............................................passed
+Then user navigate to admin page............................................passed
+And user click on branches and new branches link............................passed
+When branch details srinagar and kukatpally and srnagar and Mnagar and Hyderabad and 50002.passed
+And user click submit details...............................................passed
+Then New branches creates succesfully.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test primus application" name="verify the logout functionality" time="16.188">
+<system-out><![CDATA[And user on login page......................................................passed
+When user enter Admin and Admin.............................................passed
+And user click on login button..............................................passed
+Then user navigate to admin page............................................passed
+And user click on logout button.............................................passed
+Then user should logout successfully........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
